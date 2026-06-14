@@ -118,6 +118,7 @@ If the plugin shows `ComfyUI offline`:
 
 7. Optional: customize the wording by editing `queue_count.config.sh` in the repo root.
    This is the easiest way to change the visible text without digging through SwiftBar settings.
+   That file is intentionally local-only, so you can tweak it for yourself without affecting the repo.
 
 ## Manual Install
 
@@ -163,6 +164,7 @@ ln -s "$(pwd)/swiftbar/comfy-queue-count.5s.sh" "$HOME/Library/Application Suppo
 ## Customization
 
 The easiest customization path is editing `queue_count.config.sh` in the repo root.
+That file is meant for local personal settings and is ignored by git.
 
 If that file does not exist yet, either:
 
